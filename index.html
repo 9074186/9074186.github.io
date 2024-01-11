@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grimario Runner</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="bar">
+                <span id="hp">
+                    <img src="hp.png" />
+                    ЗДОРОВЬЕ: 
+                    <b id="hpBar">5</b>
+                </span>
+                <span id="bullets">
+                    <img src="bullet.png"/>
+                    ЧИПСЕТЫ: 
+                    <b id="bulletsBar">5</b>
+                </span>
+
+                <span id="score">
+                    <img src="coins.png">
+                    СЧЁТ: 
+                    <b id="scoreBar">0</b>
+                </span>
+            </div>
+
+            <canvas id="gameCanvas" width="700" height="400">
+
+            </canvas>
+        <h1>ПРОБЕЛ - ПРЫЖОК</h1>
+        <h1>СТРЕЛКА ВПРАВО - ЧИПСЕТ</h1>  
+        <script src="index.js"></script>
+            
+    </body>
+</html>
